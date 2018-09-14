@@ -20,7 +20,10 @@
   background-color: #F8F8FF; /*ghost white, naturally :)*/
   background-attachment: fixed;
   background-position: center;
+}
 
+.monsters {
+  background-color: white;
 }
 
 .header {
@@ -134,11 +137,7 @@
   float: right;
 }
 
-.drac_info {                /*drac info is used for all monsters*/
-  background-color: white;
-}
-
-.dracula {
+.monster_info {                /*drac info is used for all monsters*/
   background-color: white;
 }
 
@@ -279,6 +278,30 @@
 
 .where a{
   color: red;
+}
+
+.more {
+  text-align: center;
+}
+
+.more a {
+  color: #F8F8FF;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: "Kirang Haerang";
+  letter-spacing: 0.1em;
+}
+
+.back_classic {
+  text-align: center;
+}
+
+.back_classic a {
+  color: #F8F8FF;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: "Kirang Haerang";
+  letter-spacing: 0.1em;
 }
 
 .quote {
@@ -423,6 +446,16 @@
  		font-weight: bold;
  	}
 }
+
+/*@media screen and (max-width: 400px) {
+  .header {
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  .header a.logo:hover {
+  background-color: rgba(0,0,0,0.01);
+  }
+} */
 
  @media screen and (max-width: 368px){
 
